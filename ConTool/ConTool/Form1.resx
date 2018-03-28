@@ -127,7 +127,7 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="txtOriginFileLocation.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 91</value>
+    <value>3, 75</value>
   </data>
   <data name="txtOriginFileLocation.Size" type="System.Drawing.Size, System.Drawing">
     <value>614, 20</value>
@@ -151,7 +151,7 @@
     <value>Left, Right</value>
   </data>
   <data name="btnRead.Location" type="System.Drawing.Point, System.Drawing">
-    <value>623, 89</value>
+    <value>623, 73</value>
   </data>
   <data name="btnRead.Size" type="System.Drawing.Size, System.Drawing">
     <value>174, 23</value>
@@ -178,7 +178,7 @@
     <value>Left, Right</value>
   </data>
   <data name="txtTargetFileLocation.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 293</value>
+    <value>3, 245</value>
   </data>
   <data name="txtTargetFileLocation.Size" type="System.Drawing.Size, System.Drawing">
     <value>614, 20</value>
@@ -198,31 +198,31 @@
   <data name="&gt;&gt;txtTargetFileLocation.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="button2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="btnTargetFile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
   </data>
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>623, 291</value>
+  <data name="btnTargetFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>623, 243</value>
   </data>
-  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="btnTargetFile.Size" type="System.Drawing.Size, System.Drawing">
     <value>174, 23</value>
   </data>
-  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+  <data name="btnTargetFile.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="button2.Text" xml:space="preserve">
+  <data name="btnTargetFile.Text" xml:space="preserve">
     <value>选择要保存的文件(&amp;S)</value>
   </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
+  <data name="&gt;&gt;btnTargetFile.Name" xml:space="preserve">
+    <value>btnTargetFile</value>
   </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+  <data name="&gt;&gt;btnTargetFile.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;btnTargetFile.Parent" xml:space="preserve">
     <value>tableMain</value>
   </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;btnTargetFile.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="radioDMSbackend.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
@@ -232,7 +232,7 @@
     <value>True</value>
   </data>
   <data name="radioDMSbackend.Location" type="System.Drawing.Point, System.Drawing">
-    <value>231, 418</value>
+    <value>231, 419</value>
   </data>
   <data name="radioDMSbackend.Size" type="System.Drawing.Size, System.Drawing">
     <value>157, 17</value>
@@ -307,10 +307,10 @@
     <value>Fill</value>
   </data>
   <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>623, 407</value>
+    <value>623, 408</value>
   </data>
   <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 40</value>
+    <value>174, 39</value>
   </data>
   <data name="flowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -327,6 +327,222 @@
   <data name="&gt;&gt;flowLayoutPanel1.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="labelMaxCol.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="labelMaxCol.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMaxCol.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 6</value>
+  </data>
+  <data name="labelMaxCol.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="labelMaxCol.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelMaxCol.Text" xml:space="preserve">
+    <value>转换的列数：</value>
+  </data>
+  <data name="labelMaxCol.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomRight</value>
+  </data>
+  <data name="&gt;&gt;labelMaxCol.Name" xml:space="preserve">
+    <value>labelMaxCol</value>
+  </data>
+  <data name="&gt;&gt;labelMaxCol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMaxCol.Parent" xml:space="preserve">
+    <value>flowParameters</value>
+  </data>
+  <data name="&gt;&gt;labelMaxCol.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="numMaxCol.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 3</value>
+  </data>
+  <data name="numMaxCol.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="numMaxCol.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;numMaxCol.Name" xml:space="preserve">
+    <value>numMaxCol</value>
+  </data>
+  <data name="&gt;&gt;numMaxCol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numMaxCol.Parent" xml:space="preserve">
+    <value>flowParameters</value>
+  </data>
+  <data name="&gt;&gt;numMaxCol.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelMaxRow.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="labelMaxRow.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMaxRow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 6</value>
+  </data>
+  <data name="labelMaxRow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="labelMaxRow.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelMaxRow.Text" xml:space="preserve">
+    <value>转换的行数：</value>
+  </data>
+  <data name="&gt;&gt;labelMaxRow.Name" xml:space="preserve">
+    <value>labelMaxRow</value>
+  </data>
+  <data name="&gt;&gt;labelMaxRow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMaxRow.Parent" xml:space="preserve">
+    <value>flowParameters</value>
+  </data>
+  <data name="&gt;&gt;labelMaxRow.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="numMaxRow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 3</value>
+  </data>
+  <data name="numMaxRow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="numMaxRow.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;numMaxRow.Name" xml:space="preserve">
+    <value>numMaxRow</value>
+  </data>
+  <data name="&gt;&gt;numMaxRow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numMaxRow.Parent" xml:space="preserve">
+    <value>flowParameters</value>
+  </data>
+  <data name="&gt;&gt;numMaxRow.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblSeperator.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="lblSeperator.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSeperator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 6</value>
+  </data>
+  <data name="lblSeperator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 13</value>
+  </data>
+  <data name="lblSeperator.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblSeperator.Text" xml:space="preserve">
+    <value>csv分隔符：</value>
+  </data>
+  <data name="&gt;&gt;lblSeperator.Name" xml:space="preserve">
+    <value>lblSeperator</value>
+  </data>
+  <data name="&gt;&gt;lblSeperator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSeperator.Parent" xml:space="preserve">
+    <value>flowParameters</value>
+  </data>
+  <data name="&gt;&gt;lblSeperator.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtSeperator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>505, 3</value>
+  </data>
+  <data name="txtSeperator.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txtSeperator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="txtSeperator.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="txtSeperator.Text" xml:space="preserve">
+    <value>;</value>
+  </data>
+  <data name="&gt;&gt;txtSeperator.Name" xml:space="preserve">
+    <value>txtSeperator</value>
+  </data>
+  <data name="&gt;&gt;txtSeperator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtSeperator.Parent" xml:space="preserve">
+    <value>flowParameters</value>
+  </data>
+  <data name="&gt;&gt;txtSeperator.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="flowParameters.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="flowParameters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 343</value>
+  </data>
+  <data name="flowParameters.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>20, 0, 0, 0</value>
+  </data>
+  <data name="flowParameters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>794, 39</value>
+  </data>
+  <data name="flowParameters.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;flowParameters.Name" xml:space="preserve">
+    <value>flowParameters</value>
+  </data>
+  <data name="&gt;&gt;flowParameters.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flowParameters.Parent" xml:space="preserve">
+    <value>tableMain</value>
+  </data>
+  <data name="&gt;&gt;flowParameters.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="progressConverting.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="progressConverting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 388</value>
+  </data>
+  <data name="progressConverting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>794, 14</value>
+  </data>
+  <data name="progressConverting.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="progressConverting.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;progressConverting.Name" xml:space="preserve">
+    <value>progressConverting</value>
+  </data>
+  <data name="&gt;&gt;progressConverting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progressConverting.Parent" xml:space="preserve">
+    <value>tableMain</value>
+  </data>
+  <data name="&gt;&gt;progressConverting.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
   <data name="tableMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -334,7 +550,7 @@
     <value>0, 0</value>
   </data>
   <data name="tableMain.RowCount" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="tableMain.Size" type="System.Drawing.Size, System.Drawing">
     <value>800, 450</value>
@@ -355,7 +571,7 @@
     <value>0</value>
   </data>
   <data name="tableMain.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="txtOriginFileLocation" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="btnRead" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="txtTargetFileLocation" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="button2" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="radioDMSbackend" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="flowLayoutPanel1" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100,Absolute,180" /&gt;&lt;Rows Styles="Percent,50,Percent,50,Absolute,45" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="txtOriginFileLocation" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="btnRead" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="txtTargetFileLocation" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="btnTargetFile" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="radioDMSbackend" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="flowLayoutPanel1" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="flowParameters" Row="2" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="progressConverting" Row="3" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100,Absolute,180" /&gt;&lt;Rows Styles="Percent,50,Percent,50,Absolute,45,Absolute,20,Absolute,45" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <metadata name="openExcelFile.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -366,9 +582,15 @@
   <metadata name="saveTargetFile.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>157, 17</value>
   </metadata>
+  <data name="saveTargetFile.Filter" xml:space="preserve">
+    <value>csv文件|*.csv</value>
+  </data>
   <data name="saveTargetFile.Title" xml:space="preserve">
     <value>请选择存储的文件名</value>
   </data>
+  <metadata name="timerProgress.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>286, 17</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -807,7 +1029,7 @@
     <value>5, 5, 5, 5</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>格式转换工具</value>
+    <value>奇瑞线索导入格式转换工具</value>
   </data>
   <data name="&gt;&gt;openExcelFile.Name" xml:space="preserve">
     <value>openExcelFile</value>
@@ -820,6 +1042,12 @@
   </data>
   <data name="&gt;&gt;saveTargetFile.Type" xml:space="preserve">
     <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;timerProgress.Name" xml:space="preserve">
+    <value>timerProgress</value>
+  </data>
+  <data name="&gt;&gt;timerProgress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>frmMain</value>
