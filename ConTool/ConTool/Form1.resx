@@ -122,12 +122,120 @@
     <value>2</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnChooseMappingSheet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="btnChooseMappingSheet.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnChooseMappingSheet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>623, 286</value>
+  </data>
+  <data name="btnChooseMappingSheet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 23</value>
+  </data>
+  <data name="btnChooseMappingSheet.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnChooseMappingSheet.Text" xml:space="preserve">
+    <value>选择转码表文件(&amp;M)</value>
+  </data>
+  <data name="&gt;&gt;btnChooseMappingSheet.Name" xml:space="preserve">
+    <value>btnChooseMappingSheet</value>
+  </data>
+  <data name="&gt;&gt;btnChooseMappingSheet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnChooseMappingSheet.Parent" xml:space="preserve">
+    <value>tableMain</value>
+  </data>
+  <data name="&gt;&gt;btnChooseMappingSheet.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnChooseErrorLog.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="btnChooseErrorLog.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnChooseErrorLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>623, 201</value>
+  </data>
+  <data name="btnChooseErrorLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 23</value>
+  </data>
+  <data name="btnChooseErrorLog.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnChooseErrorLog.Text" xml:space="preserve">
+    <value>选择日志输出文件(&amp;L)</value>
+  </data>
+  <data name="&gt;&gt;btnChooseErrorLog.Name" xml:space="preserve">
+    <value>btnChooseErrorLog</value>
+  </data>
+  <data name="&gt;&gt;btnChooseErrorLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnChooseErrorLog.Parent" xml:space="preserve">
+    <value>tableMain</value>
+  </data>
+  <data name="&gt;&gt;btnChooseErrorLog.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtMappingSheet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="txtMappingSheet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 287</value>
+  </data>
+  <data name="txtMappingSheet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>614, 20</value>
+  </data>
+  <data name="txtMappingSheet.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txtMappingSheet.Name" xml:space="preserve">
+    <value>txtMappingSheet</value>
+  </data>
+  <data name="&gt;&gt;txtMappingSheet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtMappingSheet.Parent" xml:space="preserve">
+    <value>tableMain</value>
+  </data>
+  <data name="&gt;&gt;txtMappingSheet.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtErrorLog.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="txtErrorLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 202</value>
+  </data>
+  <data name="txtErrorLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>614, 20</value>
+  </data>
+  <data name="txtErrorLog.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txtErrorLog.Name" xml:space="preserve">
+    <value>txtErrorLog</value>
+  </data>
+  <data name="&gt;&gt;txtErrorLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtErrorLog.Parent" xml:space="preserve">
+    <value>tableMain</value>
+  </data>
+  <data name="&gt;&gt;txtErrorLog.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="txtOriginFileLocation.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="txtOriginFileLocation.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 75</value>
+    <value>3, 32</value>
   </data>
   <data name="txtOriginFileLocation.Size" type="System.Drawing.Size, System.Drawing">
     <value>614, 20</value>
@@ -145,13 +253,13 @@
     <value>tableMain</value>
   </data>
   <data name="&gt;&gt;txtOriginFileLocation.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>4</value>
   </data>
   <data name="btnRead.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
   </data>
   <data name="btnRead.Location" type="System.Drawing.Point, System.Drawing">
-    <value>623, 73</value>
+    <value>623, 31</value>
   </data>
   <data name="btnRead.Size" type="System.Drawing.Size, System.Drawing">
     <value>174, 23</value>
@@ -172,13 +280,13 @@
     <value>tableMain</value>
   </data>
   <data name="&gt;&gt;btnRead.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>5</value>
   </data>
   <data name="txtTargetFileLocation.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
   </data>
   <data name="txtTargetFileLocation.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 245</value>
+    <value>3, 117</value>
   </data>
   <data name="txtTargetFileLocation.Size" type="System.Drawing.Size, System.Drawing">
     <value>614, 20</value>
@@ -196,13 +304,13 @@
     <value>tableMain</value>
   </data>
   <data name="&gt;&gt;txtTargetFileLocation.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>6</value>
   </data>
   <data name="btnTargetFile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
   </data>
   <data name="btnTargetFile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>623, 243</value>
+    <value>623, 116</value>
   </data>
   <data name="btnTargetFile.Size" type="System.Drawing.Size, System.Drawing">
     <value>174, 23</value>
@@ -223,37 +331,7 @@
     <value>tableMain</value>
   </data>
   <data name="&gt;&gt;btnTargetFile.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="radioDMSbackend.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="radioDMSbackend.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioDMSbackend.Location" type="System.Drawing.Point, System.Drawing">
-    <value>231, 419</value>
-  </data>
-  <data name="radioDMSbackend.Size" type="System.Drawing.Size, System.Drawing">
-    <value>157, 17</value>
-  </data>
-  <data name="radioDMSbackend.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="radioDMSbackend.Text" xml:space="preserve">
-    <value>DMS后台数据库导出格式</value>
-  </data>
-  <data name="&gt;&gt;radioDMSbackend.Name" xml:space="preserve">
-    <value>radioDMSbackend</value>
-  </data>
-  <data name="&gt;&gt;radioDMSbackend.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioDMSbackend.Parent" xml:space="preserve">
-    <value>tableMain</value>
-  </data>
-  <data name="&gt;&gt;radioDMSbackend.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>7</value>
   </data>
   <data name="btnConvert.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 3</value>
@@ -325,7 +403,7 @@
     <value>tableMain</value>
   </data>
   <data name="&gt;&gt;flowLayoutPanel1.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>8</value>
   </data>
   <data name="labelMaxCol.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -514,7 +592,7 @@
     <value>tableMain</value>
   </data>
   <data name="&gt;&gt;flowParameters.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>9</value>
   </data>
   <data name="progressConverting.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -541,7 +619,88 @@
     <value>tableMain</value>
   </data>
   <data name="&gt;&gt;progressConverting.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>10</value>
+  </data>
+  <data name="radioDMSbackend.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioDMSbackend.Location" type="System.Drawing.Point, System.Drawing">
+    <value>366, 16</value>
+  </data>
+  <data name="radioDMSbackend.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 17</value>
+  </data>
+  <data name="radioDMSbackend.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="radioDMSbackend.Text" xml:space="preserve">
+    <value>DMS后台数据库格式</value>
+  </data>
+  <data name="&gt;&gt;radioDMSbackend.Name" xml:space="preserve">
+    <value>radioDMSbackend</value>
+  </data>
+  <data name="&gt;&gt;radioDMSbackend.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioDMSbackend.Parent" xml:space="preserve">
+    <value>groupInputFileFormat</value>
+  </data>
+  <data name="&gt;&gt;radioDMSbackend.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radioManual.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioManual.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 16</value>
+  </data>
+  <data name="radioManual.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 17</value>
+  </data>
+  <data name="radioManual.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radioManual.Text" xml:space="preserve">
+    <value>业务部门输入模板</value>
+  </data>
+  <data name="&gt;&gt;radioManual.Name" xml:space="preserve">
+    <value>radioManual</value>
+  </data>
+  <data name="&gt;&gt;radioManual.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioManual.Parent" xml:space="preserve">
+    <value>groupInputFileFormat</value>
+  </data>
+  <data name="&gt;&gt;radioManual.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupInputFileFormat.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="groupInputFileFormat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 408</value>
+  </data>
+  <data name="groupInputFileFormat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>614, 39</value>
+  </data>
+  <data name="groupInputFileFormat.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="groupInputFileFormat.Text" xml:space="preserve">
+    <value>源文件格式</value>
+  </data>
+  <data name="&gt;&gt;groupInputFileFormat.Name" xml:space="preserve">
+    <value>groupInputFileFormat</value>
+  </data>
+  <data name="&gt;&gt;groupInputFileFormat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupInputFileFormat.Parent" xml:space="preserve">
+    <value>tableMain</value>
+  </data>
+  <data name="&gt;&gt;groupInputFileFormat.ZOrder" xml:space="preserve">
+    <value>11</value>
   </data>
   <data name="tableMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -550,7 +709,7 @@
     <value>0, 0</value>
   </data>
   <data name="tableMain.RowCount" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="tableMain.Size" type="System.Drawing.Size, System.Drawing">
     <value>800, 450</value>
@@ -571,7 +730,7 @@
     <value>0</value>
   </data>
   <data name="tableMain.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="txtOriginFileLocation" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="btnRead" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="txtTargetFileLocation" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="btnTargetFile" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="radioDMSbackend" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="flowLayoutPanel1" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="flowParameters" Row="2" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="progressConverting" Row="3" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100,Absolute,180" /&gt;&lt;Rows Styles="Percent,50,Percent,50,Absolute,45,Absolute,20,Absolute,45" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="btnChooseMappingSheet" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="btnChooseErrorLog" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="txtMappingSheet" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtErrorLog" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtOriginFileLocation" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="btnRead" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="txtTargetFileLocation" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="btnTargetFile" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="flowLayoutPanel1" Row="6" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="flowParameters" Row="4" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="progressConverting" Row="5" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="groupInputFileFormat" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100,Absolute,180" /&gt;&lt;Rows Styles="Percent,25,Percent,25,Percent,25,Percent,25,Absolute,45,Absolute,20,Absolute,45,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <metadata name="openExcelFile.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>

@@ -31,11 +31,14 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.tableMain = new System.Windows.Forms.TableLayoutPanel();
+            this.btnChooseMappingSheet = new System.Windows.Forms.Button();
+            this.btnChooseErrorLog = new System.Windows.Forms.Button();
+            this.txtMappingSheet = new System.Windows.Forms.TextBox();
+            this.txtErrorLog = new System.Windows.Forms.TextBox();
             this.txtOriginFileLocation = new System.Windows.Forms.TextBox();
             this.btnRead = new System.Windows.Forms.Button();
             this.txtTargetFileLocation = new System.Windows.Forms.TextBox();
             this.btnTargetFile = new System.Windows.Forms.Button();
-            this.radioDMSbackend = new System.Windows.Forms.RadioButton();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.btnConvert = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
@@ -47,6 +50,9 @@
             this.lblSeperator = new System.Windows.Forms.Label();
             this.txtSeperator = new System.Windows.Forms.TextBox();
             this.progressConverting = new System.Windows.Forms.ProgressBar();
+            this.groupInputFileFormat = new System.Windows.Forms.GroupBox();
+            this.radioDMSbackend = new System.Windows.Forms.RadioButton();
+            this.radioManual = new System.Windows.Forms.RadioButton();
             this.openExcelFile = new System.Windows.Forms.OpenFileDialog();
             this.saveTargetFile = new System.Windows.Forms.SaveFileDialog();
             this.timerProgress = new System.Windows.Forms.Timer(this.components);
@@ -55,20 +61,49 @@
             this.flowParameters.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numMaxCol)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numMaxRow)).BeginInit();
+            this.groupInputFileFormat.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableMain
             // 
             resources.ApplyResources(this.tableMain, "tableMain");
+            this.tableMain.Controls.Add(this.btnChooseMappingSheet, 1, 3);
+            this.tableMain.Controls.Add(this.btnChooseErrorLog, 1, 2);
+            this.tableMain.Controls.Add(this.txtMappingSheet, 0, 3);
+            this.tableMain.Controls.Add(this.txtErrorLog, 0, 2);
             this.tableMain.Controls.Add(this.txtOriginFileLocation, 0, 0);
             this.tableMain.Controls.Add(this.btnRead, 1, 0);
             this.tableMain.Controls.Add(this.txtTargetFileLocation, 0, 1);
             this.tableMain.Controls.Add(this.btnTargetFile, 1, 1);
-            this.tableMain.Controls.Add(this.radioDMSbackend, 0, 4);
-            this.tableMain.Controls.Add(this.flowLayoutPanel1, 1, 4);
-            this.tableMain.Controls.Add(this.flowParameters, 0, 2);
-            this.tableMain.Controls.Add(this.progressConverting, 0, 3);
+            this.tableMain.Controls.Add(this.flowLayoutPanel1, 1, 6);
+            this.tableMain.Controls.Add(this.flowParameters, 0, 4);
+            this.tableMain.Controls.Add(this.progressConverting, 0, 5);
+            this.tableMain.Controls.Add(this.groupInputFileFormat, 0, 6);
             this.tableMain.Name = "tableMain";
+            // 
+            // btnChooseMappingSheet
+            // 
+            resources.ApplyResources(this.btnChooseMappingSheet, "btnChooseMappingSheet");
+            this.btnChooseMappingSheet.Name = "btnChooseMappingSheet";
+            this.btnChooseMappingSheet.UseVisualStyleBackColor = true;
+            this.btnChooseMappingSheet.Click += new System.EventHandler(this.btnChooseMappingSheet_Click);
+            // 
+            // btnChooseErrorLog
+            // 
+            resources.ApplyResources(this.btnChooseErrorLog, "btnChooseErrorLog");
+            this.btnChooseErrorLog.Name = "btnChooseErrorLog";
+            this.btnChooseErrorLog.UseVisualStyleBackColor = true;
+            this.btnChooseErrorLog.Click += new System.EventHandler(this.btnChooseErrorLog_Click);
+            // 
+            // txtMappingSheet
+            // 
+            resources.ApplyResources(this.txtMappingSheet, "txtMappingSheet");
+            this.txtMappingSheet.Name = "txtMappingSheet";
+            // 
+            // txtErrorLog
+            // 
+            resources.ApplyResources(this.txtErrorLog, "txtErrorLog");
+            this.txtErrorLog.Name = "txtErrorLog";
             // 
             // txtOriginFileLocation
             // 
@@ -95,14 +130,6 @@
             this.btnTargetFile.Name = "btnTargetFile";
             this.btnTargetFile.UseVisualStyleBackColor = true;
             this.btnTargetFile.Click += new System.EventHandler(this.btnTargetFile_Click);
-            // 
-            // radioDMSbackend
-            // 
-            resources.ApplyResources(this.radioDMSbackend, "radioDMSbackend");
-            this.radioDMSbackend.Checked = true;
-            this.radioDMSbackend.Name = "radioDMSbackend";
-            this.radioDMSbackend.TabStop = true;
-            this.radioDMSbackend.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel1
             // 
@@ -167,13 +194,13 @@
             // 
             resources.ApplyResources(this.numMaxRow, "numMaxRow");
             this.numMaxRow.Maximum = new decimal(new int[] {
-            60000,
+            70000,
             0,
             0,
             0});
             this.numMaxRow.Name = "numMaxRow";
             this.numMaxRow.Value = new decimal(new int[] {
-            5000,
+            70000,
             0,
             0,
             0});
@@ -193,6 +220,28 @@
             this.tableMain.SetColumnSpan(this.progressConverting, 2);
             resources.ApplyResources(this.progressConverting, "progressConverting");
             this.progressConverting.Name = "progressConverting";
+            // 
+            // groupInputFileFormat
+            // 
+            this.groupInputFileFormat.Controls.Add(this.radioDMSbackend);
+            this.groupInputFileFormat.Controls.Add(this.radioManual);
+            resources.ApplyResources(this.groupInputFileFormat, "groupInputFileFormat");
+            this.groupInputFileFormat.Name = "groupInputFileFormat";
+            this.groupInputFileFormat.TabStop = false;
+            // 
+            // radioDMSbackend
+            // 
+            resources.ApplyResources(this.radioDMSbackend, "radioDMSbackend");
+            this.radioDMSbackend.Name = "radioDMSbackend";
+            this.radioDMSbackend.UseVisualStyleBackColor = true;
+            // 
+            // radioManual
+            // 
+            resources.ApplyResources(this.radioManual, "radioManual");
+            this.radioManual.Checked = true;
+            this.radioManual.Name = "radioManual";
+            this.radioManual.TabStop = true;
+            this.radioManual.UseVisualStyleBackColor = true;
             // 
             // openExcelFile
             // 
@@ -226,6 +275,8 @@
             this.flowParameters.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numMaxCol)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numMaxRow)).EndInit();
+            this.groupInputFileFormat.ResumeLayout(false);
+            this.groupInputFileFormat.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -237,7 +288,6 @@
         private System.Windows.Forms.Button btnRead;
         private System.Windows.Forms.TextBox txtTargetFileLocation;
         private System.Windows.Forms.Button btnTargetFile;
-        private System.Windows.Forms.RadioButton radioDMSbackend;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Button btnConvert;
         private System.Windows.Forms.Button btnCancel;
@@ -252,6 +302,13 @@
         private System.Windows.Forms.TextBox txtSeperator;
         private System.Windows.Forms.ProgressBar progressConverting;
         private System.Windows.Forms.Timer timerProgress;
+        private System.Windows.Forms.Button btnChooseMappingSheet;
+        private System.Windows.Forms.Button btnChooseErrorLog;
+        private System.Windows.Forms.TextBox txtMappingSheet;
+        private System.Windows.Forms.TextBox txtErrorLog;
+        private System.Windows.Forms.GroupBox groupInputFileFormat;
+        private System.Windows.Forms.RadioButton radioDMSbackend;
+        private System.Windows.Forms.RadioButton radioManual;
     }
 }
 
