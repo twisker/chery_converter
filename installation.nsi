@@ -2,7 +2,7 @@
 
 ; HM NIS Edit Wizard helper defines
 !define PRODUCT_NAME "Chery Convert Tool"
-!define PRODUCT_VERSION "0.1.014b"
+!define PRODUCT_VERSION "0.1.015b"
 !define PRODUCT_PUBLISHER "Chery & SAP"
 !define PRODUCT_DIR_REGKEY "Software\Microsoft\Windows\CurrentVersion\App Paths\ConTool.exe"
 !define PRODUCT_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\${PRODUCT_NAME}"
@@ -51,7 +51,7 @@ var ICONS_GROUP
 ; MUI end ------
 
 Name "${PRODUCT_NAME} ${PRODUCT_VERSION}"
-OutFile "ConToolSetup.exe"
+OutFile "ConToolSetup${PRODUCT_VERSION}.exe"
 InstallDir "$PROGRAMFILES\Chery Convert Tool"
 InstallDirRegKey HKLM "${PRODUCT_DIR_REGKEY}" ""
 ShowInstDetails show
