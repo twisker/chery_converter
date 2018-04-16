@@ -2,7 +2,7 @@
 
 ; HM NIS Edit Wizard helper defines
 !define PRODUCT_NAME "Chery Convert Tool"
-!define PRODUCT_VERSION "0.1.016b"
+!define PRODUCT_VERSION "0.1.017b"
 !define PRODUCT_PUBLISHER "Chery & SAP"
 !define PRODUCT_DIR_REGKEY "Software\Microsoft\Windows\CurrentVersion\App Paths\ConTool.exe"
 !define PRODUCT_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\${PRODUCT_NAME}"
