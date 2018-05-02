@@ -56,6 +56,7 @@
             this.openExcelFile = new System.Windows.Forms.OpenFileDialog();
             this.saveTargetFile = new System.Windows.Forms.SaveFileDialog();
             this.timerProgress = new System.Windows.Forms.Timer(this.components);
+            this.radioMan0501 = new System.Windows.Forms.RadioButton();
             this.tableMain.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.flowParameters.SuspendLayout();
@@ -223,6 +224,7 @@
             // 
             // groupInputFileFormat
             // 
+            this.groupInputFileFormat.Controls.Add(this.radioMan0501);
             this.groupInputFileFormat.Controls.Add(this.radioDMSbackend);
             this.groupInputFileFormat.Controls.Add(this.radioManual);
             resources.ApplyResources(this.groupInputFileFormat, "groupInputFileFormat");
@@ -238,9 +240,7 @@
             // radioManual
             // 
             resources.ApplyResources(this.radioManual, "radioManual");
-            this.radioManual.Checked = true;
             this.radioManual.Name = "radioManual";
-            this.radioManual.TabStop = true;
             this.radioManual.UseVisualStyleBackColor = true;
             // 
             // openExcelFile
@@ -258,6 +258,14 @@
             // timerProgress
             // 
             this.timerProgress.Tick += new System.EventHandler(this.progress_ticking);
+            // 
+            // radioMan0501
+            // 
+            resources.ApplyResources(this.radioMan0501, "radioMan0501");
+            this.radioMan0501.Checked = true;
+            this.radioMan0501.Name = "radioMan0501";
+            this.radioMan0501.TabStop = true;
+            this.radioMan0501.UseVisualStyleBackColor = true;
             // 
             // frmMain
             // 
@@ -309,6 +317,7 @@
         private System.Windows.Forms.GroupBox groupInputFileFormat;
         private System.Windows.Forms.RadioButton radioDMSbackend;
         private System.Windows.Forms.RadioButton radioManual;
+        private System.Windows.Forms.RadioButton radioMan0501;
     }
 }
 

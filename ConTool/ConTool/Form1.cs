@@ -193,6 +193,11 @@ namespace ConTool
                 command += " --mapping_filename=\"" + txtMappingSheet.Text + "\"";
                 command += " --log_filename=\"" + txtErrorLog.Text + "\"";
             }
+            else if (radioMan0501.Checked == true) {
+                command += " --format=" + "3";
+                command += " --mapping_filename=\"" + txtMappingSheet.Text + "\"";
+                command += " --log_filename=\"" + txtErrorLog.Text + "\"";
+            }
             else
             {
                 command += " --format=" + "1";

@@ -621,6 +621,33 @@
   <data name="&gt;&gt;progressConverting.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
+  <data name="radioMan0501.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioMan0501.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 16</value>
+  </data>
+  <data name="radioMan0501.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
+  </data>
+  <data name="radioMan0501.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="radioMan0501.Text" xml:space="preserve">
+    <value>业务模板0501</value>
+  </data>
+  <data name="&gt;&gt;radioMan0501.Name" xml:space="preserve">
+    <value>radioMan0501</value>
+  </data>
+  <data name="&gt;&gt;radioMan0501.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioMan0501.Parent" xml:space="preserve">
+    <value>groupInputFileFormat</value>
+  </data>
+  <data name="&gt;&gt;radioMan0501.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="radioDMSbackend.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -646,13 +673,13 @@
     <value>groupInputFileFormat</value>
   </data>
   <data name="&gt;&gt;radioDMSbackend.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="radioManual.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="radioManual.Location" type="System.Drawing.Point, System.Drawing">
-    <value>166, 16</value>
+    <value>221, 16</value>
   </data>
   <data name="radioManual.Size" type="System.Drawing.Size, System.Drawing">
     <value>118, 17</value>
@@ -673,7 +700,7 @@
     <value>groupInputFileFormat</value>
   </data>
   <data name="&gt;&gt;radioManual.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="groupInputFileFormat.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -1188,7 +1215,7 @@
     <value>5, 5, 5, 5</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>奇瑞线索导入格式转换工具(v0.1.017b)</value>
+    <value>奇瑞线索导入格式转换工具(v0.2.001b)</value>
   </data>
   <data name="&gt;&gt;openExcelFile.Name" xml:space="preserve">
     <value>openExcelFile</value>
