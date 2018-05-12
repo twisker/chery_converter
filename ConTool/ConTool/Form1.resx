@@ -1215,7 +1215,7 @@
     <value>5, 5, 5, 5</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>奇瑞线索导入格式转换工具(v0.2.001b)</value>
+    <value>奇瑞线索导入格式转换工具(v0.2.002b)</value>
   </data>
   <data name="&gt;&gt;openExcelFile.Name" xml:space="preserve">
     <value>openExcelFile</value>
